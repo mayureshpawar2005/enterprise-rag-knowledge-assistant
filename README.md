@@ -144,25 +144,30 @@ sequenceDiagram
 
 ## Screenshots
 
-### Chat interface with source citations
 
-ChatGPT-style conversation UI with chat history sidebar and live source citations panel.
+### Dashboard
 
-![Chat interface with sources panel](docs/screenshots/chat-interface.svg)
+System status, ChromaDB connection, and indexed document statistics.
 
-### Document upload dashboard
+![Dashboard](docs/screenshots/dashboard.png)
 
-Drag-and-drop PDF upload with system health stats and indexing feedback.
+### Chat Interface
 
-![Upload dashboard](docs/screenshots/upload-dashboard.svg)
+ChatGPT-style conversation interface for asking questions about uploaded PDFs.
 
-### Interactive API documentation
+![Chat Interface](docs/screenshots/chat.png)
 
-Auto-generated Swagger UI for testing all REST endpoints.
+### Upload Dashboard
 
-![Swagger API docs](docs/screenshots/api-docs.svg)
+Drag-and-drop PDF upload with indexing feedback.
 
-> **Tip:** Replace the SVG previews above with PNG captures from your running app and save them to `docs/screenshots/` for production documentation.
+![Upload Dashboard](docs/screenshots/upload.png)
+
+### Architecture / Project Structure
+
+Project architecture and workflow.
+
+![Architecture](docs/screenshots/structured.png)
 
 | View | URL |
 |------|-----|
