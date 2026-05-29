@@ -1,0 +1,24 @@
+# Web framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12
+
+# Configuration & validation
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+python-dotenv>=1.0.1
+
+# LangChain
+langchain>=0.3.7
+langchain-core>=0.3.15
+langchain-community>=0.3.7
+langchain-text-splitters>=0.3.2
+langchain-huggingface>=0.1.2
+langchain-google-genai>=2.0.5
+
+# Vector store & embeddings
+chromadb>=0.5.18
+sentence-transformers>=3.3.0
+
+# PDF processing
+pypdf>=5.1.0
